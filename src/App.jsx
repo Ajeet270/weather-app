@@ -147,7 +147,7 @@ function App() {
       <div id="parent">
         <div id="navbar">
             <ul>
-              <li><h3 className="bungee-regular">Wheather</h3></li>
+              <li><h3 className="bungee-regular">Weather</h3></li>
               <li>
                 <p className="heading" id="head">
                   {name} {region} {Country}

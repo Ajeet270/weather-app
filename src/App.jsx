@@ -78,8 +78,8 @@ let formattedDate = `${dayName}, ${day}-${month}-${year}`;
 
    setBgImage(localHour >= 6 && localHour < 18 ? "day.jpg" : "night.jpg");
 
-        setName(res.data.location.name);
-        setRegion(res.data.location.region);
+        setName(res.data.location.name + ", ");
+        setRegion(res.data.location.region + ", ");
         setCountry(res.data.location.country);
          setIcon(res.data.current.condition.icon);
         setCondition(res.data.current.condition.text);
